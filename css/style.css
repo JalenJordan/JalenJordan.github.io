@@ -101,6 +101,7 @@
 	.background{
 		text-align: center;
 		overflow: hidden;
+		height: 700px;
 	}
 	.background-pic{
 		height: 368px;
