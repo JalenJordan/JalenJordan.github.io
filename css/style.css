@@ -1,0 +1,130 @@
+.background{
+	text-align: center;
+	height: 591px;
+}
+
+.selfpic{
+	background: #000;
+	color: white;
+}
+.selfpic img{
+	position: relative;
+	top: -20px;
+	/* width: 100px;
+	height: 100px; */
+}
+.selfpic ul{
+	list-style: none;
+	margin-right: 50px;
+}
+.selfpic li{
+	display: inline;
+	margin-right: 5px;
+}
+
+.selfpic a{
+	color:white;
+}
+
+.navigation{
+	background: gray;
+	font-size: 20px;
+	color: white;
+}
+.navigation ul{
+	padding-left: 0;
+	list-style: none;
+	text-align: center;
+	margin-right: 20px;
+}
+.navigation li{
+	display: inline;
+	margin-right: 5px;
+}
+.navigation a{
+	color: white;
+}
+
+.about{
+	background:black;
+	color: white;
+	padding-bottom: 10px;
+}
+.about a{
+	border: 5px solid white;
+	color: black;
+	background: white;
+}
+
+#projects{
+	background: #000;
+	color: white;
+}
+.projects{
+	background: #000;
+	color: white;
+}
+.projects a{
+	border-radius: 5px;
+	border: 5px solid white;
+	background: white;
+	color: black;
+}
+
+.contacts{
+	background: gray;
+}
+.contacts li{
+	display: inline;
+}
+.contacts a{
+	color: white;
+}
+
+.social{
+	background: #000;
+	
+}
+.social ul{
+	text-align: center;
+}
+.social li{
+	text-align: center;
+	display: inline;
+	margin-right: 50px;
+}
+.social a{
+	text-align: center;
+}
+
+@media (min-width:1200px){
+	.background{
+		text-align: center;
+		overflow: hidden;
+	}
+	.background-pic{
+		height: 368px;
+	}
+	.background-pic img{
+		width: 100%;
+	}
+	.selfpic{
+		font-size: 30px;
+		position: relative;
+		left: 80px;
+		top: -150px;
+		background-color: transparent;
+	}
+	.self img{
+		position: relative;
+		top: -30px;
+		overflow: hidden;
+	}
+	.self{
+		border: 3px solid white;
+	}
+	.navigation li{
+		font-size: 20px;
+		margin-right: 30px;
+	}
+}
