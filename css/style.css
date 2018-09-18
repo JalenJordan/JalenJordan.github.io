@@ -1,3 +1,7 @@
+body{
+	display: none;
+	background: #000;
+}
 .background{
 	text-align: center;
 	height: 591px;
@@ -73,6 +77,7 @@
 
 .contacts{
 	background: gray;
+	margin-top: 123px;
 }
 .contacts li{
 	display: inline;
@@ -127,5 +132,9 @@
 	.navigation li{
 		font-size: 20px;
 		margin-right: 30px;
+		color: white;
+	}
+	a{
+		color: white;
 	}
 }
