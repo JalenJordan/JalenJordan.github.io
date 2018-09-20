@@ -142,6 +142,10 @@ body{
 	a{
 		color: white;
 	}
+	.contacts{
+		margin-top: 39px;
+		margin-bottom: 10px;
+	}
 	.contacts a{
 		color: white;
 	}
