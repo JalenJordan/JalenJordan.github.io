@@ -39,7 +39,7 @@ body{
 	padding-left: 0;
 	list-style: none;
 	text-align: center;
-	margin-right: 20px;
+	/* margin-right: 20px; */
 }
 .navigation li{
 	display: inline;
@@ -78,6 +78,9 @@ body{
 .contacts{
 	background: gray;
 	margin-top: 123px;
+}
+.contacts ul{
+	padding-left: 0px;
 }
 .contacts li{
 	display: inline;
