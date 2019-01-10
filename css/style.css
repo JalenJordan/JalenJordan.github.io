@@ -9,7 +9,7 @@ body{
 
 .selfpic{
 	background: #000;
-	color: white;
+	color: #00FFFF;
 }
 .selfpic img{
 	position: relative;
@@ -27,24 +27,24 @@ body{
 	margin-left: 20px;
 }
 i{
-	color: gold;
+	color: #006464;
 }
 i:hover,i:focus,i:checked{
-	color:purple;
+	color:#FF7400;
 	text-decoration: none;
 }
 .selfpic a{
 	color:white;
 }
 .selfpic a:hover,a:checked,a:focus{
-	color:purple;
+	color:#70FFFF;
 	text-decoration: none;
 }
 
 .navigation{
 	background: gray;
 	font-size: 20px;
-	color: gold;
+	color: #00FFFF;
 }
 .navigation ul{
 	padding-left: 0;
@@ -58,23 +58,23 @@ i:hover,i:focus,i:checked{
 	margin-right: 5px;
 }
 .navigation a{
-	color: gold;
+	color: #FF7400;
 }
 .navigation a:hover,a:checked,a:focus{
-	color: purple;
+	color: #00FFFF;
 	text-decoration: none;
 }
 
 .about{
 	background:black;
-	color: turquoise;
+	color: #70FFFF;
 	padding-bottom: 10px;
 	text-align: center;
 }
 .about a{
-	border: 5px solid purple;
-	color: turquoise;
-	background: purple;
+	border: 5px solid #A74C00;
+	color: white;
+	background: #A74C00;
 }
 
 #projects{
@@ -89,8 +89,8 @@ i:hover,i:focus,i:checked{
 }
 .projects a{
 	border-radius: 5px;
-	border: 5px solid purple;
-	background: purple;
+	border: 5px solid #A74C00;
+	background: #A74C00;
 	color: turquoise;
 }
 
@@ -106,7 +106,7 @@ i:hover,i:focus,i:checked{
 	display: inline;
 }
 .contacts a{
-	color: red;
+	color: #70FFFF;
 	margin-right: 12px;
 }
 
