@@ -1,6 +1,6 @@
 $(document).ready(function(){
      $('#headshot').click(function(){
-          $('#firstLang, #secondLang, #thirdLang, #fourthLang, #aboutME, #profilePic').fadeOut();
+          $('#firstLang, #secondLang, #thirdLang, #fourthLang, #fifthLang, #aboutME, #profilePic').fadeOut();
           $("#contacts, #resume").slideDown();
      })
      $('#house').click(function(){
@@ -19,39 +19,47 @@ $(document).ready(function(){
           $("#linkedin").slideDown()
      })
      $('#pointer1').click(function(){
-          $('#firstLang, #secondLang, #thirdLang,  #fourthLang').slideDown();
+          $('#firstLang, #secondLang, #thirdLang,  #fourthLang, #fifthLang').slideDown();
      })
-     $("#node").click(function(){
-          $('#firstLang, #secondLang, #thirdLang, #fourthLang').fadeOut();
-          $("#rentalProject").fadeIn()
+     $("#react").click(function(){
+          $('#secondLang, #thirdLang, #fourthLang, #fifthLang').fadeOut();
+          $("#storeProject").fadeIn()
      })
      $("#goback").click(function(){
-          $("#rentalProject").fadeOut();
-          $("#firstLang, #secondLang, #thirdLang, #fourthLang").fadeIn()
+          $("#storeProject").fadeOut();
+          $("#firstLang, #secondLang, #thirdLang, #fourthLang, #fifthLang").fadeIn()
      })
-     $("#java").click(function(){
-          $('#firstLang, #secondLang, #thirdLang, #fourthLang').fadeOut();
-          $("#bankProject, #textSouls").fadeIn();
+     $("#node").click(function(){
+          $('#firstLang, #secondLang, #thirdLang, #fourthLang, #fifthLang').fadeOut();
+          $("#rentalProject").fadeIn()
      })
      $("#goback2").click(function(){
-          $("#bankProject, #textSouls").fadeOut();
-          $('#firstLang, #secondLang, #thirdLang, #fourthLang').fadeIn();
+          $("#rentalProject").fadeOut();
+          $("#firstLang, #secondLang, #thirdLang, #fourthLang, #fifthLang").fadeIn()
      })
-     $("#htmlcss").click(function(){
-          $("#firstLang, #secondLang, #thirdLang, #fourthLang").fadeOut();
-          $("#startUp, #wireFrame, #storeProject").fadeIn();
+     $("#java").click(function(){
+          $('#secondLang, #thirdLang, #fourthLang, #fifthLang').fadeOut();
+          $("#bankProject, #textSouls").fadeIn();
      })
      $("#goback3").click(function(){
-          $("#startUp, #wireFrame, #storeProject").fadeOut();
-          $("#firstLang, #secondLang, #thirdLang, #fourthLang").fadeIn();
+          $("#bankProject, #textSouls").fadeOut();
+          $('#secondLang, #thirdLang, #fourthLang, #fifthLang').fadeIn();
      })
-     $('#python').click(function(){
-          $('#firstLang, #secondLang, #thirdLang, #fourthLang').fadeOut();
-          $("#guiProject").fadeIn();
+     $("#htmlcss").click(function(){
+          $("#secondLang, #thirdLang, #fourthLang, #fifthLang").fadeOut();
+          $("#startUp, #wireFrame, #storeProject").fadeIn();
      })
      $("#goback4").click(function(){
+          $("#startUp, #wireFrame, #storeProject").fadeOut();
+          $("#secondLang, #thirdLang, #fourthLang, #fifthLang").fadeIn();
+     })
+     $('#python').click(function(){
+          $('#secondLang, #thirdLang, #fourthLang, #fifthLang').fadeOut();
+          $("#guiProject").fadeIn();
+     })
+     $("#goback5").click(function(){
           $("#guiProject").fadeOut();
-          $('#firstLang, #secondLang, #thirdLang, #fourthLang').fadeIn();
+          $('#secondLang, #thirdLang, #fourthLang, #fifthLang').fadeIn();
      })
      $("#goback5").click(function(){
           $("#contacts, #resume").slideUp();

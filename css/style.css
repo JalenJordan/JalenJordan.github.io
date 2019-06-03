@@ -92,20 +92,28 @@
         90% {margin-top: 20px;}
         100% {margin-top: 0px;}
     }
-
+    
     #firstLang{
         margin-top: 10%;
     }
     #secondLang{
-        margin-top: 20%;
+        margin-top: 10%;
     }
     #thirdLang{
-        margin-top: 25%;
+        margin-top: 20%;
     }
     #fourthLang{
+        margin-top: 25%;
+    }
+    #fifthLang{
         margin-top: 20%;
     }
 
+    #react{
+        width: 50%;
+        position: relative;
+        left: 60px;
+    }
     #node{
         width: 50%;
         position: relative;
@@ -131,7 +139,7 @@
         padding-left: 0px;
     }
 
-    #tiers>li, #tiers, #tiers2>li, #tiers2, #tiers3>li, #tiers3, #tiers4>li, #tiers4{
+    #tiers>li, #tiers, #tiers2>li, #tiers2, #tiers3>li, #tiers3, #tiers4>li, #tiers4, #tiers5, #tiers5>li{
         display: inline;
         margin-right: 10px;
         text-align: left;
@@ -147,18 +155,25 @@
     #progress2{
         width: 28%;
         height: 20px;
-        animation: movetwo 2s;
+        animation: move 2s;
         animation-fill-mode: forwards;
     }
 
     #progress3{
         width: 28%;
         height: 20px;
-        animation: movethree 2s;
+        animation: movetwo 2s;
         animation-fill-mode: forwards;
     }
 
     #progress4{
+        width: 28%;
+        height: 20px;
+        animation: movethree 2s;
+        animation-fill-mode: forwards;
+    }
+
+    #progress5{
         width: 28%;
         height: 20px;
         animation: movefourth 2s;
@@ -198,14 +213,14 @@
         }
     }
 
-    #firstLang, #secondLang, #thirdLang, #fourthLang{
+    #firstLang, #secondLang, #thirdLang, #fourthLang, #fifthLang{
         display: none;
     }
 
     #rentalProject,#textSouls,#bankProject,#storeProject,#startUp,#wireFrame,#guiProject{
         display: none;
     }
-    #goback,#goback2,#goback3, #goback4{
+    #goback,#goback2,#goback3{
         float: right;
         color: white;
     }
@@ -297,16 +312,19 @@
         margin-top: 15%;
     }
     #secondLang{
-        margin-top: 20%;
+        margin-top: 15%;
     }
     #thirdLang{
+        margin-top: 20%;
+    }
+    #fouthLang{
         margin-top: 25%;
     }
-    #fourthLang{
+    #fifthLang{
         margin-top: 20%;
     }
 
-    #tiers>li, #tiers, #tiers2>li, #tiers2, #tiers3>li, #tiers3, #tiers4>li, #tiers4{
+    #tiers>li, #tiers, #tiers2>li, #tiers2, #tiers3>li, #tiers3, #tiers4>li, #tiers4, #tiers5, #tiers5>li{
         display: inline;
         margin-right: 26px;
         text-align: left;
@@ -316,6 +334,11 @@
         color:black;
     }
 
+    #react{
+        width: 50%;
+        position: relative;
+        left: 89px;
+    }
     #node{
         width: 50%;
         position: relative;
@@ -374,9 +397,12 @@
         margin-top: 20%;
     }
     #thirdLang{
-        margin-top: 25%;
+        margin-top: 20%;
     }
     #fourthLang{
+        margin-top: 25%;
+    }
+    #fifthLang{
         margin-top: 20%;
     }
 
@@ -393,6 +419,11 @@
         animation-iteration-count: infinite;
     }
 
+    #react{
+        width: 50%;
+        position: relative;
+        left: 105px;
+    }
     #node{
         width: 50%;
         position: relative;
@@ -414,7 +445,7 @@
         left: 97px;
     }
 
-    #tiers>li, #tiers, #tiers2>li, #tiers2, #tiers3>li, #tiers3, #tiers4>li, #tiers4{
+    #tiers>li, #tiers, #tiers2>li, #tiers2, #tiers3>li, #tiers3, #tiers4>li, #tiers4,#tiers5, #tiers>li{
         display: inline;
         margin-right: 38px;
         text-align: left;
@@ -430,18 +461,25 @@
     #progress2{
         width: 28%;
         height: 20px;
-        animation: movetwo 2s;
+        animation: move 2s;
         animation-fill-mode: forwards;
     }
 
     #progress3{
         width: 28%;
         height: 20px;
-        animation: movethree 2s;
+        animation: movetwo 2s;
         animation-fill-mode: forwards;
     }
 
     #progress4{
+        width: 28%;
+        height: 20px;
+        animation: movethree 2s;
+        animation-fill-mode: forwards;
+    }
+
+    #progress5{
         width: 28%;
         height: 20px;
         animation: movefourth 2s;
@@ -529,6 +567,11 @@
         animation-iteration-count: infinite;
     }
 
+    #react{
+        width: 30%;
+        position: relative;
+        left: 261px;
+    }
     #node{
         width: 30%;
         position: relative;
@@ -550,7 +593,7 @@
         left: 261px;
     }
 
-    #tiers>li, #tiers, #tiers2>li, #tiers2, #tiers3>li, #tiers3, #tiers4>li, #tiers4{
+    #tiers>li, #tiers, #tiers2>li, #tiers2, #tiers3>li, #tiers3, #tiers4>li, #tiers4, #tiers5, #tiers5>li{
         display: inline;
         margin-right: 88px;
         text-align: left;
@@ -565,12 +608,11 @@
         animation: move 2s;
         animation-fill-mode: forwards;
     }
-
     #progress2{
         margin-left: 36px;
         width: 28%;
         height: 20px;
-        animation: movetwo 2s;
+        animation: move 2s;
         animation-fill-mode: forwards;
     }
 
@@ -578,11 +620,19 @@
         margin-left: 36px;
         width: 28%;
         height: 20px;
-        animation: movethree 2s;
+        animation: movetwo 2s;
         animation-fill-mode: forwards;
     }
 
     #progress4{
+        margin-left: 36px;
+        width: 28%;
+        height: 20px;
+        animation: movethree 2s;
+        animation-fill-mode: forwards;
+    }
+
+    #progress5{
         margin-left: 36px;
         width: 28%;
         height: 20px;
@@ -664,6 +714,11 @@
         animation-iteration-count: infinite;
     }
 
+    #react{
+        width: 30%;
+        position: relative;
+        left: 324px;
+    }
     #node{
         width: 30%;
         position: relative;
@@ -685,7 +740,7 @@
         left: 324px;
     }
 
-    #tiers>li, #tiers, #tiers2>li, #tiers2, #tiers3>li, #tiers3, #tiers4>li, #tiers4{
+    #tiers>li, #tiers, #tiers2>li, #tiers2, #tiers3>li, #tiers3, #tiers4>li, #tiers4, #tiers5, #tiers5>li{
         display: inline;
         margin-right: 130px;
         text-align: left;
@@ -700,8 +755,14 @@
         animation: move 2s;
         animation-fill-mode: forwards;
     }
-
     #progress2{
+        margin-left: 45px;
+        width: 28%;
+        height: 20px;
+        animation: move 2s;
+        animation-fill-mode: forwards;
+    }
+    #progress3{
         margin-left: 45px;
         width: 28%;
         height: 20px;
@@ -709,7 +770,7 @@
         animation-fill-mode: forwards;
     }
 
-    #progress3{
+    #progress4{
         margin-left: 45px;
         width: 28%;
         height: 20px;
@@ -717,7 +778,7 @@
         animation-fill-mode: forwards;
     }
 
-    #progress4{
+    #progress5{
         margin-left: 45px;
         width: 28%;
         height: 20px;
@@ -799,6 +860,11 @@
         animation-iteration-count: infinite;
     }
 
+    #react{
+        width: 30%;
+        position: relative;
+        left: 386px;
+    }
     #node{
         width: 30%;
         position: relative;
@@ -820,7 +886,7 @@
         left: 386px;
     }
 
-    #tiers>li, #tiers, #tiers2>li, #tiers2, #tiers3>li, #tiers3, #tiers4>li, #tiers4{
+    #tiers>li, #tiers, #tiers2>li, #tiers2, #tiers3>li, #tiers3, #tiers4>li, #tiers4, #tiers5, #tiers5>li{
         display: inline;
         margin-right: 130px;
         text-align: left;
@@ -840,7 +906,7 @@
         margin-left: 58px;
         width: 28%;
         height: 20px;
-        animation: movetwo 2s;
+        animation: move 2s;
         animation-fill-mode: forwards;
     }
 
@@ -848,11 +914,19 @@
         margin-left: 58px;
         width: 28%;
         height: 20px;
-        animation: movethree 2s;
+        animation: movetwo 2s;
         animation-fill-mode: forwards;
     }
 
     #progress4{
+        margin-left: 58px;
+        width: 28%;
+        height: 20px;
+        animation: movethree 2s;
+        animation-fill-mode: forwards;
+    }
+
+    #progress5{
         margin-left: 58px;
         width: 28%;
         height: 20px;
