@@ -660,7 +660,7 @@
         0% {width: 0%;
         background-color: orange;
         }
-        100% {width: 9%;
+        100% {width: 18%;
         background-color: blue;
         }
     }
@@ -806,7 +806,7 @@
         0% {width: 0%;
         background-color: orange;
         }
-        100% {width: 9%;
+        100% {width: 18%;
         background-color: blue;
         }
     }
@@ -894,6 +894,10 @@
         margin-left: 30px;
     }
 
+    #tier5>ul{
+        padding: 0;
+    }
+
     #progress{
         margin-left: 58px;
         width: 28%;
@@ -954,7 +958,7 @@
         0% {width: 0%;
         background-color: orange;
         }
-        100% {width: 9%;
+        100% {width: 18%;
         background-color: blue;
         }
     }
