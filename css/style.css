@@ -261,7 +261,7 @@
         color: white;
     }
 
-    #goback5{
+    #goback5, #goback6{
         color:black;
     }
 }
@@ -1001,5 +1001,13 @@
 
     #aboutME{
         font-size: 30px;
+    }
+
+    #tier5{
+        padding: 0;
+    }
+
+    #progress5{
+        margin-left: 58px;
     }
 }
