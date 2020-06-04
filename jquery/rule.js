@@ -47,10 +47,10 @@ $(document).ready(function(){
      })
      $("#htmlcss").click(function(){
           $("#firstLang, #secondLang, #thirdLang, #fourthLang, #fifthLang").fadeOut();
-          $("#startUp, #wireFrame, #storeProject").fadeIn();
+          $("#startUp, #wireFrame").fadeIn();
      })
      $("#goback4").click(function(){
-          $("#startUp, #wireFrame, #storeProject").fadeOut();
+          $("#startUp, #wireFrame").fadeOut();
           $("#firstLang, #secondLang, #thirdLang, #fourthLang, #fifthLang").fadeIn();
      })
      $('#python').click(function(){
