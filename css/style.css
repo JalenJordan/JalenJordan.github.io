@@ -525,9 +525,6 @@
 }
 
 @media(min-width: 768px){
-    #profilePic>:first-child{
-        max-width: 108%;
-    }
 
     #aboutME{
         margin-left: 25px;
