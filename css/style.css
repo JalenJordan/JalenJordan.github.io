@@ -3,29 +3,6 @@
         background: #424242;
         color: white;
     }
-    #headshot{
-        position: absolute;
-        left: 124px;
-        top: -129px;
-        width: 79px;
-        height:75px;
-        animation: colorchange 10s;
-        animation-iteration-count: infinite;
-    }
-    @keyframes colorchange{
-        0% {border: solid 5px red;}
-        10% {border: solid 5px green;}
-        20% {border: solid 5px blue;}
-        30% {border: solid 5px green;}
-        40% {border: solid 5px red;}
-        50% {border: solid 5px green;}
-        60% {border: solid 5px blue;}
-        70% {border: solid 5px red;}
-        80% {border: solid 5px green;}
-        90% {border: solid 5px blue;}
-        100% {border: solid 5px red;}
-    
-    }
 
     #contact{
         text-align: left;
@@ -34,28 +11,8 @@
         color: white;
     }
 
-    #pointer{
-        position: absolute;
-        color: white;
-        top: -88px;
-        left: 80px;
-        font-size: 20px;
-
-        animation: pointy 5s;
-        animation-iteration-count: infinite;
-    }
-    @keyframes pointy{
-        0% {margin-left: 0px;}
-        10% {margin-left: 20px;}
-        20% {margin-left: 0px;}
-        30% {margin-left: 20px;}
-        40% {margin-left: 0px;}
-        50% {margin-left: 20px;}
-        60% {margin-left: 0px;}
-        70% {margin-left: 20px;}
-        80% {margin-left: 0px;}
-        90% {margin-left: 20px;}
-        100% {margin-left: 0px;}
+    #contact:hover{
+        color: red;
     }
 
     #aboutME{
@@ -267,16 +224,6 @@
 }
 
 @media(min-width: 375px){
-    #headshot{
-        position: absolute;
-        left: 146px;
-        top: -140px;
-        width: 79px;
-        height:75px;
-        animation: colorchange 10s;
-        animation-iteration-count: infinite;
-    }
-
     #contact{
         text-align: left;
         position: relative;
@@ -284,15 +231,8 @@
         color: white;
     }
 
-    #pointer{
-        position: absolute;
-        color: white;
-        top: -106px;
-        left: 80px;
-        font-size: 20px;
-
-        animation: pointy 5s;
-        animation-iteration-count: infinite;
+    #contact:hover{
+        color: red;
     }
 
     #funFact{
@@ -366,16 +306,6 @@
 }
 
 @media(min-width: 425px){
-    #headshot{
-        position: absolute;
-        left: 173px;
-        top: -156px;
-        width: 79px;
-        height:75px;
-        animation: colorchange 10s;
-        animation-iteration-count: infinite;
-    }
-
     #contact{
         text-align: left;
         position: relative;
@@ -383,16 +313,10 @@
         color: white;
     }
 
-    #pointer{
-        position: absolute;
-        color: white;
-        top: -121px;
-        left: 80px;
-        font-size: 20px;
-
-        animation: pointy 5s;
-        animation-iteration-count: infinite;
+    #contact:hover{
+        color: red;
     }
+
 
     #firstLang{
         margin-top: 20%;
@@ -529,15 +453,6 @@
     #aboutME{
         margin-left: 25px;
     }
-    #headshot{
-        position: absolute;
-        left: 350px;
-        top: -283px;
-        width: 106px;
-        height: 109px;
-        animation: colorchange 10s;
-        animation-iteration-count: infinite;
-    }
 
     #contact{
         text-align: left;
@@ -548,15 +463,8 @@
         font-size: 28px;
     }
 
-    #pointer{
-        position: absolute;
-        color: white;
-        top: -222px;
-        left: 197px;
-        font-size: 37px;
-
-        animation: pointy 5s;
-        animation-iteration-count: infinite;
+    #contact:hover{
+        color: red;
     }
 
     #pointer1{
@@ -676,15 +584,6 @@
 }
 
 @media(min-width: 1024px){
-    #headshot{
-        position: absolute;
-        left: 451px;
-        top: -380px;
-        width: 145px;
-        height: 153px;
-        animation: colorchange 10s;
-        animation-iteration-count: infinite;
-    }
 
     #contact{
         text-align: left;
@@ -695,16 +594,10 @@
         font-size: 28px;
     }
 
-    #pointer{
-        position: absolute;
-        color: white;
-        top: -312px;
-        left: 264px;
-        font-size: 37px;
-
-        animation: pointy 5s;
-        animation-iteration-count: infinite;
+    #contact:hover{
+        color: red;
     }
+
 
     #pointer1{
         position: absolute;
@@ -822,16 +715,6 @@
 }
 
 @media(min-width: 1440px){
-    #headshot{
-        position: absolute;
-        left: 538px;
-        top: -536px;
-        width: 206px;
-        height: 218px;
-        animation: colorchange 10s;
-        animation-iteration-count: infinite;
-    }
-
     #contact{
         text-align: left;
         position: relative;
@@ -841,15 +724,8 @@
         font-size: 28px;
     }
 
-    #pointer{
-        position: absolute;
-        color: white;
-        top: -413px;
-        left: 264px;
-        font-size: 37px;
-
-        animation: pointy 5s;
-        animation-iteration-count: infinite;
+    #contact{
+        color: red;
     }
 
     #pointer1{
@@ -975,16 +851,6 @@
 
 /* fixes python words and progress bar */
 @media(min-width: 1920px){
-    #headshot{
-        position: absolute;
-        left: 520px;
-        top: -711px;
-        width: 278px;
-        height: 291px;
-        animation: colorchange 10s;
-        animation-iteration-count: infinite;
-    }
-
     #contact{
         text-align: left;
         position: relative;
@@ -993,17 +859,11 @@
         left: 80px;
         font-size: 28px;
     }
-    
-    #pointer{
-        position: absolute;
-        color: white;
-        top: -543px;
-        left: 264px;
-        font-size: 37px;
 
-        animation: pointy 5s;
-        animation-iteration-count: infinite;
+    #contact:hover{
+        color: red;
     }
+
 
     #aboutME{
         font-size: 30px;
@@ -1020,13 +880,7 @@
 
 /* fixes profile pic in 4K */
 @media(min-width: 2560px){
-    #headshot{
-        position: absolute;
-        left: 451px;
-        top: -380px;
-        width: 145px;
-        height: 153px;
-        animation: colorchange 10s;
-        animation-iteration-count: infinite;
+    #contact:hover{
+        color: red;
     }
 }
