@@ -1,5 +1,5 @@
 $(document).ready(function(){
-     $('#headshot').click(function(){
+     $('#contact').click(function(){
           $('#firstLang, #secondLang, #thirdLang, #fourthLang, #fifthLang, #aboutME, #profilePic').fadeOut();
           $("#contacts, #resume").slideDown()
      })
